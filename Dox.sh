@@ -16,12 +16,14 @@ function DoxWeb {
 	clear
 echo -e "${verde}
  
-██████╗░░█████╗░██╗░░██╗
-██╔══██╗██╔══██╗╚██╗██╔╝
-██║░░██║██║░░██║░╚███╔╝░
-██║░░██║██║░░██║░██╔██╗░
-██████╔╝╚█████╔╝██╔╝╚██╗
-╚═════╝░░╚════╝░╚═╝░░╚═╝
+░░░░░██╗███████╗███╗░░██╗██╗░░██╗
+░░░░░██║██╔════╝████╗░██║██║░██╔╝
+░░░░░██║█████╗░░██╔██╗██║█████═╝░
+██╗░░██║██╔══╝░░██║╚████║██╔═██╗░
+╚█████╔╝███████╗██║░╚███║██║░╚██╗
+░╚════╝░╚══════╝╚═╝░░╚══╝╚═╝░░╚═╝
+
+
     "${blanco}
 }
 #
@@ -36,23 +38,23 @@ echo -e -n "${verde}
 └═════════════════════════════════════┘
 
 ┌═════════════════════════════════════════════════════════┐
-█ [${blanco}1${verde}] ${blanco}Pipl       ${verde}┃ [${blanco}10${verde}] ${blanco}Sentinel     ${verde}┃ [${blanco}19${verde}] ${blanco}Sanciones     ${verde}█
+█ [${blanco}1${verde}] ${blanco}Pornhub    ${verde}┃ [${blanco}10${verde}] ${blanco}Sentinel     ${verde}┃ [${blanco}19${verde}] ${blanco}sanctions     ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}2${verde}] ${blanco}Dni        ${verde}┃ [${blanco}11${verde}] ${blanco}ExifData     ${verde}┃ [${blanco}20${verde}] ${blanco}Sat           ${verde}█
+█ [${blanco}2${verde}] ${blanco}pinayflix  ${verde}┃ [${blanco}11${verde}] ${blanco}ExifData     ${verde}┃ [${blanco}20${verde}] ${blanco}Sat           ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}3${verde}] ${blanco}Username   ${verde}┃ [${blanco}12${verde}] ${blanco}Acreditación ${verde}┃ [${blanco}21${verde}] ${blanco}Runt          ${verde}█
+█ [${blanco}3${verde}] ${blanco}Username   ${verde}┃ [${blanco}12${verde}] ${blanco}accreditation${verde}┃ [${blanco}21${verde}] ${blanco}Runt          ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}4${verde}] ${blanco}Operdora   ${verde}┃ [${blanco}13${verde}] ${blanco}Censo        ${verde}┃ [${blanco}22${verde}] ${blanco}Libreta       ${verde}█
+█ [${blanco}4${verde}] ${blanco}Operdora   ${verde}┃ [${blanco}13${verde}] ${blanco}Censo        ${verde}┃ [${blanco}22${verde}] ${blanco}Notebook      ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}5${verde}] ${blanco}Ruc        ${verde}┃ [${blanco}14${verde}] ${blanco}EstadoDoc    ${verde}┃ [${blanco}23${verde}] ${blanco}EntelCl       ${verde}█
+█ [${blanco}5${verde}] ${blanco}Ruc        ${verde}┃ [${blanco}14${verde}] ${blanco}StatusDoc    ${verde}┃ [${blanco}23${verde}] ${blanco}EntelCl       ${verde}█
 █═════════════════════════════════════════════════════════█
 █ [${blanco}6${verde}] ${blanco}Tinfoleak  ${verde}┃ [${blanco}15${verde}] ${blanco}Metapicz     ${verde}┃ [${blanco}24${verde}] ${blanco}PiliApp       ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}7${verde}] ${blanco}TinEye     ${verde}┃ [${blanco}16${verde}] ${blanco}Certificados ${verde}┃ [${blanco}25${verde}] ${blanco}OsintFW       ${verde}█
+█ [${blanco}7${verde}] ${blanco}TinEye     ${verde}┃ [${blanco}16${verde}] ${blanco}Certificate  ${verde}┃ [${blanco}25${verde}] ${blanco}OsintFW       ${verde}█
 █═════════════════════════════════════════════════════════█
 █ [${blanco}8${verde}] ${blanco}NumVerify  ${verde}┃ [${blanco}17${verde}] ${blanco}Maltego      ${verde}┃ [${blanco}26${verde}] ${blanco}SkypeIp       ${verde}█
 █═════════════════════════════════════════════════════════█
-█ [${blanco}9${verde}] ${blanco}Crédito    ${verde}┃ [${blanco}18${verde}] ${blanco}Curp         ${verde}┃ [${blanco}27${verde}] ${blanco}Multas        ${verde}█
+█ [${blanco}9${verde}] ${blanco}Crédits    ${verde}┃ [${blanco}18${verde}] ${blanco}Curp         ${verde}┃ [${blanco}27${verde}] ${blanco}fines         ${verde}█
 └═════════════════════════════════════════════════════════┘
 ┃
 └═>>> "${blanco}
@@ -62,7 +64,7 @@ read -r Opcion_DoxWeb
 
 echo -e "${rojo}
 ┌═════════════════════┐
-█ ${blanco}¡OPCIÓN INCORRECT! ${rojo}█
+█ ${blanco}¡OPTION INCORRECT! ${rojo}█
 └═════════════════════┘
 "${blanco}
 sleep 1.5
@@ -70,10 +72,10 @@ done
 
 case $Opcion_DoxWeb in
 	1)
-		termux-open https://pipl.com/
+		termux-open https://www.pornhub.com/
 		;;
 	2)
-		termux-open http://www.consultadni.info
+		termux-open https://pinayflix.tv/
 		;;
 	3)
 		termux-open https://namechk.com/
@@ -159,7 +161,7 @@ echo -e -n "${verde}
 └═════════════════════════════════════┘
 
 ┌═══════════════┐
-█ [${blanco}1${verde}] ┃   ${blanco}SI    ${verde}█
+█ [${blanco}1${verde}] ┃   ${blanco}YES    ${verde}█
 █═══════════════█
 █ [${blanco}2${verde}] ┃   ${blanco}NO    ${verde}█
 └═══════════════┘
